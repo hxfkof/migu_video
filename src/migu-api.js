@@ -575,8 +575,8 @@ function getVideoBindParams(safeData) {
 
 // 获取高质量图片
 function getHighQualityPic(pics) {
-  return pics.highResolutionH || pics.lowResolutionH || 
-         pics.highResolutionV || pics.lowResolutionV || '';
+  return pics.highResolutionV || pics.lowResolutionV || 
+         pics.highResolutionH || pics.lowResolutionH || '';
 }
 
 // 批量处理视频数据
